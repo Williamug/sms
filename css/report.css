@@ -1,0 +1,57 @@
+/*report css*/
+
+address{
+	border-left: 1px solid #b7ac97;
+	padding-left: 25px;
+}
+ul li{
+	list-style: none;
+}
+.as_title{
+	color: #b7ac97;
+}
+h4{
+	text-align: center;
+	color: #0c67e3;
+	border-bottom: 3px solid #b7ac97;
+	border-top: 1px solid #b7ac97;
+	padding-top: 12px;
+}
+#as_names{
+	font-size: 18px;
+	font-weight: bold;
+}
+.as_detail{
+	font-weight: bold;
+}
+.as_detail_two{
+	font-weight: normal;
+}
+#as_detail_two{
+	color: #ff0000;
+}
+#line{
+	border-bottom: 1px solid #000;
+	padding-top: 20px;
+	margin-bottom-bottom: 4px; 
+}
+p{
+	font-weight: bold;
+}
+p .as_fees_id{
+	font-weight: normal;
+}
+.as_other_req{
+	border: 2px solid #000;
+}
+p .as_comment_id_one{
+	color: #21e30c;
+	font-weight: normal;
+}
+p .as_comment_id_two{
+	color: #ff0000;
+	font-weight: normal;
+}
+table .table-view .table{
+	border: none 
+}

@@ -1,0 +1,44 @@
+/*custom css */
+body{
+	background: #f6e9c6;
+}
+#login{
+	height: 16em;
+	margin: 18% 35%;
+	border: 1px solid #000;
+	-webkit-border-radius: 8px;
+	   -moz-border-radius: 8px;	     
+	    -ms-border-radius: 8px;
+	     -o-border-radius: 8px;	
+	        border-radius: 8px;
+	background: #edd89f;
+	box-shadow: 2px 2px 4px #000;
+}
+legend{
+	padding-top:8px;
+	font-size: 20px;
+	margin-left: 2em;
+	border: none;
+}
+button, input, label, select{
+	margin-left: 2em;
+	width: 8em;
+}
+
+form{
+	display: block;
+}
+#loginbtn{
+	width: 7.7em;
+}
+#btnsend{
+	padding-top:4px;
+}
+ #form-data{
+	 width: 20em;
+ }
+ #sign-up{
+	padding-top: 12px;
+ }
+
+

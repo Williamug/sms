@@ -1,0 +1,257 @@
+/*
+ * Base structure
+ */
+
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+}
+
+
+/*
+ * Global add-ons
+ */
+
+.sub-header {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+/*
+  logo styles
+*/
+#logo img{
+  padding-left: 0;
+  position: absolute;
+  left: 0;
+  width: 15.2em;
+}
+
+/*
+ * Top navigation
+ * Hide default border to remove 1px line.
+ */
+.navbar-fixed-top {
+  border: 0;
+}
+
+/*
+ * Sidebar
+ */
+
+@media (min-width: 768px) {
+  .sidebar {
+    position: fixed;
+    top: 51px;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    display: block;
+    padding: 20px;
+    overflow-x: hidden;
+    overflow-y: auto; 
+    background-color: #323b43;
+  }
+}
+
+/* Sidebar navigation */
+.nav-sidebar {
+  margin-right: -21px; /* 20px padding + 1px border */
+  margin-bottom: 20px;
+  margin-left: -20px;
+}
+.nav-sidebar > li > a {
+  font-size: 16px;
+  color: #c1bdbd;
+  padding-right: 20px;
+  padding-left: 20px;
+  border-bottom: 1px solid #fff;
+}
+
+.nav-sidebar > li > a:hover{
+  background: #f9e4c8;
+  color: #000;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+/*
+ * Main content
+ */
+
+.main {
+  background: #fff;
+} 
+#middle-bar{
+  padding-left: 0;
+  margin-left: 0;
+  margin-left: 0;
+  padding-left: 0;
+  }
+@media (min-width: 768px) {
+  .main {
+    background: #fff;
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+ 
+}
+.main .page-header {
+  margin-top: 0;
+  border: 1px solid inherit;
+  border-radius: 0 0 8em 8em ;
+}
+
+
+/*
+ * Placeholder dashboard ideas
+ */
+
+.placeholders {
+  margin-bottom: 30px;
+  text-align: center;
+}
+.placeholders h4 {
+  margin-bottom: 0;
+}
+.placeholder {
+  margin-bottom: 20px;
+}
+.placeholder img {
+  display: inline-block;
+  border-radius: 50%;
+}
+/*custom added*/
+
+.right-side-bar{
+  height: 100%;
+}
+.product, .copy-right{
+  padding-top: 19px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  color: #c1bdbd;
+  text-align: center;
+  font-size: 11px;
+}
+#page-header{
+  background: #f0f0f0;
+  padding-left: 12px;
+  margin-left: -15px;
+  margin-right: 28px;
+}
+.page-header{
+  padding-top: 8px;
+}
+
+input[type="text"]{
+  height: 36px;
+  border-radius: 4px;
+}
+input[type="text"]:focus{
+  box-shadow: 1px 1px 1px 2px blue;
+}
+input[placeholder=""]:focus{
+  text-align: center;
+}
+  
+.btn{
+  
+  display: inline-block;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+      touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 8px;
+}
+.side-bar-info{
+width: 12em;
+padding-left: 12px;
+padding-bottom: 14px;
+margin-top: -10px;
+border: 1px solid #d1d4d6;
+border-radius: 8px;
+color: #fff;
+line-height: .2;
+box-shadow: 2px 4px 8px #000;
+
+  
+}
+.text-muted-1{
+  color: #fff;
+  font-size: 11px;
+}
+.side-blocks-1{
+  background: #f56954;
+}
+.side-blocks-2{
+  background: #00a65a;
+}
+.side-blocks-3{
+  background: #00c0ef;
+}
+.side-blocks-5{
+  background: #ff0000;
+}
+.down-link{
+  color: #fff;
+}
+.down-link:hover{
+  text-decoration: underline;
+}
+.notice{
+  height: 2.8em;
+  padding-bottom: 4px;
+  background: #00a65a;
+  margin-right: 12px;
+  color: #fff;
+  font-size: 16px;
+  margin-top: -16px;
+  margin-bottom: 8px;
+  padding-top: 8px;
+  text-align: center;
+  box-shadow: 2px 4px 8px #000;
+}
+.notice:hover{
+  box-shadow: 2px 4px 8px #000;
+}
+.footer-sms{
+  color: #000;
+  border-top: 1px solid #000;
+} 
+.calendar{
+  padding-top: -2em;
+  margin-top: -1.5em;
+}
+table {
+   max-width: 400px;
+   margin-right: 20px;
+}
+tr th{
+  background: silver;
+}
+tr th, tr td{
+  border: 1px solid #000;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5;
+}

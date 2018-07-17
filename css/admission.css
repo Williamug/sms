@@ -1,0 +1,22 @@
+/* students css*/
+
+legend{
+	font-size: 16px;
+}
+
+/*.container{
+	margin-right: 30px;
+	margin-left: 30px;
+}*/
+input .as-radio-btn{
+	margin-left: 2em;
+}
+
+.as-subreset button{
+	width: 6em;
+}
+fieldset{
+	padding-bottom: 2em;
+	padding-top: 2em;
+}
+
